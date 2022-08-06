@@ -130,3 +130,44 @@ div.error {
 input.error {
   border: 1px solid var(--error);
 }
+
+@media screen and (max-width:600px){
+  .App{
+    width: 100vw;
+  }
+  header{
+    width: 100vw;
+  }
+  .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .workouts{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .workout-details{
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  form{
+    width: 80%;
+    margin: 0;
+    height: 55vh;
+  }
+  form button {
+    width: 90%
+    ;
+  }
+  
+}
